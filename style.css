@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header and nav */
+header {
+  padding: 0 50px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  justify-content: space-between;
+}
+
+nav,
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 60px;
+  padding-right: 20px;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+}
+
+.navigation-links {
+  margin-left: 10px;
+}
+
+.navigation-links a {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+/* Main */
+
+main {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+main p {
+  font-size: 1.3rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+a {
+  font-size: 1.3rem;
+}
+
+.title {
+  text-align: center;
+  padding: 50px;
+}
+
+.sub-main {
+  display: flex;
+}
+
+section {
+  border-top: 2px solid black;
+  width: 100%;
+  padding: 20px 60px;
+}
+
+section:nth-child(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 60px;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.reviews-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.review {
+  font-size: 1.5rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 250px;
+  padding: 25px;
+}
+
+.comment {
+  margin-top: 0;
+}
+
+.prof-name,
+.prof-title {
+  line-height: 0;
+  color: gray;
+}
+
+.prof-name {
+  padding-top: 8px;
+}
+
+#rights {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+/* projects.html PAGE */
